@@ -32,8 +32,11 @@ public class YZMView extends View {
     private ArrayList<PointF> pointFs;
     private List<PointF> pointLines;
     private int mDefaultColor = Color.BLACK;
-    private int mDefaultTxtSize = 20;
-    private int mDefaultDisPointSize = 4;
+    private int mDefaultTxtSize =20;
+    private int mDefaultDisPointSize =4;
+    //上面的mDefaultTxtSize mDefaultDisPointSize是px值
+    //private int mDefaultTxtSize = TranslateDimensionUtils.sp2px(context, 20);
+    //private int mDefaultDisPointSize = TranslateDimensionUtils.sp2px(context, 4);
     private int mDefaultDisLineCount = 4;
     private int mDefaultDisPointCount = 240;
     private int mTxtColor;
@@ -64,7 +67,6 @@ public class YZMView extends View {
         //获取自定义属性
         mTxtColor = typedArray.getColor(R.styleable.YZMView_txtColor, mDefaultColor);
         mTxtSize = typedArray.getDimension(R.styleable.YZMView_txtSize, mDefaultTxtSize);
-        mTxtSize = TranslateDimensionUtils.sp2px(context, mTxtSize);
         mDisPointSize = typedArray.getDimension(R.styleable.YZMView_disturbPointSize, mDefaultDisPointSize);
         mDisPointColor = typedArray.getColor(R.styleable.YZMView_disturbPointColor, mDefaultColor);
         mDisPointCount = typedArray.getInteger(R.styleable.YZMView_disturbPointCount, mDefaultDisPointCount);
