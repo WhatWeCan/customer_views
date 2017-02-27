@@ -73,6 +73,7 @@ public class YZMView extends View {
         mDisLineCount = typedArray.getInteger(R.styleable.YZMView_disturbLineCount, mDefaultDisLineCount);
         mDisLineColor = typedArray.getColor(R.styleable.YZMView_disturbLineColor, mDefaultColor);
         mDisLineSize = typedArray.getDimension(R.styleable.YZMView_disturbLineSize, mDefaultDisPointSize);
+		typedArray.recycle();
 
         initPaint();
     }

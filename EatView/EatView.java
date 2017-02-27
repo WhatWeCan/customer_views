@@ -103,6 +103,7 @@ public class EatView extends View {
         if (mFinishTxt == null) {
             mFinishTxt = "load finished";
         }
+		typedArray.recycle();
     }
 
     private void initPaint() {
