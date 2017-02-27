@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="EatView">
+        <attr name="eatRadius" format="dimension" />
+        <attr name="mouthDegree" format="float" />
+        <attr name="onceProgress" format="integer" />
+        <attr name="eatColor" format="color|reference" />
+        <attr name="rightLineColor" format="color|reference" />
+        <attr name="rightLineHeight" format="dimension|reference" />
+        <attr name="leftLineColor" format="color|reference" />
+        <attr name="leftLineHeight" format="dimension|reference" />
+        <attr name="leftLineGap" format="dimension|reference" />
+        <attr name="progressTxtColor" format="color|reference" />
+        <attr name="progressTxtSize" format="dimension|reference" />
+        <attr name="finishTxtSize" format="dimension|reference" />
+        <attr name="finishTxtColor" format="color|reference" />
+        <attr name="eyeColor" format="color|reference" />
+        <attr name="eatTime" format="integer" />
+        <attr name="finishTxt" format="string" />
+        <attr name="loadFinishTime" format="integer" />
+    </declare-styleable>
+
+</resources>
