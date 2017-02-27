@@ -1,16 +1,15 @@
-【自定义控件】eat loading 自定义控件实现
-效果：
+###效果：
 
 ![这里写图片描述](http://img.blog.csdn.net/20170227170717940?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMjM5MTg3Ng==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-实现步骤：
+###实现步骤：
 
 ![这里写图片描述](http://img.blog.csdn.net/20170227170735928?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMjM5MTg3Ng==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 ![这里写图片描述](http://img.blog.csdn.net/20170227170750351?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMjM5MTg3Ng==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 
-代码对应：
+###代码对应：
 ```
 canvas.translate(mEatRadius, height / 2);//将画布移动到左侧中间
 //1、根据progress计算圆心的位置
@@ -57,7 +56,7 @@ canvas.drawPath(path, mLeftLinePaint);
 ```
 
 
-自定义属性列表：
+###自定义属性列表：
 <table>
     <tr>
         <td>eatRadius</td>
